@@ -14,12 +14,14 @@ h1, h2, h3 {
   font-family: 'Heavitas', sans-serif; }
 
 .font-56 {
-  font-size: 56px;
-  line-height: 68px; }
+  font-size: 3rem;
+  line-height: 4rem;
+}
 
 .font-28 {
-  font-size: 28px;
-  line-height: 32px; }
+  font-size: 1.2rem;
+  line-height: 1.7rem; 
+}
 
 .no-desktop {
   display: none; }
@@ -37,14 +39,15 @@ i {
   transition: color 2s ease-in-out; }
 
 button {
-  padding: 10px 30px;
+  padding: .5rem 2rem;
   border: 2px solid;
-  border-radius: 12px;
+  border-radius: .5rem;
   font-family: 'Lato',sans-serif;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: bold;
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .dark {
   color: #000000;
@@ -74,9 +77,11 @@ header {
     display: flex;
     justify-content: space-between; }
     header .header svg {
-      width: 200px;
+      width: 180px;
       height: auto;
-      margin-top: 25px; }
+      margin-top: 25px; 
+      margin-left: -80px;}
+      
       header .header svg path {
         fill: #ffffff;
         transition: fill 2s ease-in-out; }
@@ -237,19 +242,21 @@ section {
   font-family: "heavitas";
   line-height: 60px;
   letter-spacing: 2px;
-  margin: 0 0 14px 0; }
+  margin: 0 0 .5rem 0; }
 
-.bg-1-text {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 40px;
-  font-family: 'Lato',sans-serif; }
+.bg-1-text{
+  font-family: 'Lato',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  letter-spacing: 1px;
+}
 
 .bg-2-text {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-family: 'Lato',sans-serif;
-  font-weight: 300; }
+  font-weight: 700; }
 
 .box2 {
   position: absolute;
@@ -267,12 +274,12 @@ section {
 
 .box2 img {
   width: auto;
-  height: 95%;
+  height: 90%;
   filter: drop-shadow(-5px 50px 15px rgba(0, 0, 0, 0.35)); }
 
 .poca-line-heigh {
-  font-size: 48px;
-  line-height: 58px; }
+  font-size: 3rem;
+  line-height: 3.5rem; }
 
 .onscroll-move-1 {
   position: relative;
@@ -1163,27 +1170,14 @@ input[type=number] {
       padding: 0px 8px 0px 8px;
       margin-bottom: 2vh;
       font-size: 14px; } }
+
 @media screen and (max-width: 575px) {
   header .header svg {
     opacity: 0;
-    transition: opacity 1s linear; }
+    transition: opacity 1s linear; 
+  }
+}
 
-  .fs-text .initial-text {
-    font-size: 55px;
-    line-height: 60px;
-    letter-spacing: 3px; }
-
-  .active-y .fs-text {
-    left: 15px; }
-
-  .bg-1-text {
-    font-size: 22px;
-    font-weight: 100;
-    line-height: 1.2;
-    font-family: 'Lato',sans-serif; } }
-@media screen and (max-width: 480px) {
-  .form-tittle {
-    max-width: 300px; } }
 @media screen and (max-width: 359px) {
   header .mailto {
     bottom: 50px;
@@ -1199,24 +1193,12 @@ input[type=number] {
     height: 40px;
     right: 20px;
     bottom: 40px; }
-    header .whatsapp i {
-      display: block;
-      width: 40px;
-      height: 40px; }
-      header .whatsapp i img {
-        width: 100%;
-        height: auto; }
-
-  .logo-principal {
-    width: 100px; }
-
-  .fs-text .initial-text {
-    font-size: 40px;
-    line-height: 45px;
-    letter-spacing: 2px; }
-
-  .bg-1-text {
-    font-size: 20px;
-    line-height: 22px; } }
+  header .whatsapp i {
+    display: block;
+    width: 40px;
+    height: 40px; }
+  header .whatsapp i img {
+    width: 100%;
+    height: auto; }
 
 /*# sourceMappingURL=appetizer_mob.css.map */

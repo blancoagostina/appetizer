@@ -265,20 +265,20 @@ console.log(window.innerHeight)
       logo.style.top ="calc(50vh - 100px)"
     }
     if (window.innerHeight <= 768 && window.innerWidth >= 0 && window.innerHeight < window.innerWidth) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="32px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="37px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="100px"
       text.getElementsByTagName('p')[0].style.fontSize ="18px"
     }else{
       if (window.innerWidth >= 992) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="32px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="37px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth < 992 && window.innerWidth >= 768) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="32px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="37px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
@@ -621,9 +621,9 @@ console.log(window.innerHeight)
       texto1.style.height ="45vh"
       texto2.style.paddingTop ="50vh"
     }if (window.innerHeight > 557) {
-      texto1.style.marginTop ="60vh"
-      texto1.style.height ="35vh"
-      texto2.style.paddingTop ="60vh"
+      texto1.style.marginTop ="59vh"
+      texto1.style.height ="40vh"
+      texto2.style.paddingTop ="59vh"
     }
   }
 
@@ -662,21 +662,21 @@ console.log(window.innerHeight)
       logo.style.top ="calc(60vh - 100px)"
     }
     if (window.innerHeight <= 768 && window.innerWidth >= 0 && window.innerHeight < window.innerWidth) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="32px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="37px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       //text.getElementsByTagName('p')[0].style.fontSize ="18px"
       element.style.top ="0"
     }else{
       if (window.innerWidth >= 992) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="96px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="105px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4.5rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="5rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       //text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth < 992 && window.innerWidth >= 768) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="32px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="37px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       //text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
@@ -826,7 +826,7 @@ console.log(window.innerHeight)
     let calculoBox2 = (window.innerWidth/2)-(box2.clientWidth/4);
     let calculoBox3 = (window.innerWidth)-(box3.clientWidth);
     if (window.innerWidth >= 1025) {
-      estilobox1=".active-y .box1{left:calc(50% - calc("+element.clientWidth+"px*0.5));}"
+      estilobox1=".active-y .box1{left:calc(45% - calc("+element.clientWidth+"px*0.5));}"
       estiloTexto=".active-y .fs-text{left:auto; right:calc(60% - calc("+text.clientWidth+"px*1.8));}"
     }
 	if (window.innerWidth < window.innerHeight  && window.innerWidth <= 1024  && window.innerHeight <= 600) {

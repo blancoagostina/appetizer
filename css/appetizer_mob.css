@@ -13,11 +13,9 @@ body {
 }
 
 h1, h2, h3, h4 { margin-bottom: 0; font-family: 'Heavitas', sans-serif;  }
-
 h1 { font-size: 3.25rem; margin-top: 2rem; }
 h2 { font-size: 2.5rem; line-height: 3rem; }
 h4 { line-height: 2.5rem; }
-
 p {
   font-family: 'Lato',sans-serif;
   font-size: 1rem;
@@ -26,11 +24,9 @@ p {
   letter-spacing: 1px;
   margin-bottom: 0;
 }
-
 li { list-style-type: none; }
 i { transition: color 2s ease-in-out; }
 section { width: 100%; }
-
 button {
   padding: .5rem 2rem;
   border: 2px solid;
@@ -42,23 +38,19 @@ button {
   background-color: transparent;
 }
 
-.dark {
-  color: #000;
-  border-color: #000;
-  margin-top: 15px; }
-
-.light {
-  color: #fff;
-  border-color: #fff; }
+.dark { color: #000; border-color: #000; margin-top: 1rem; }
+.light { color: #fff; border-color: #fff; }
 
 button.dark:hover {
   color: #fff;
   border-color: #000;
-  background-color: #000; }
+  background-color: #000; 
+}
 button.light:hover {
   color: #000;
   border-color: #fff;
-  background-color: #fff; }
+  background-color: #fff; 
+}
 
 header {
   width: 100%;
@@ -764,40 +756,27 @@ input[type=number] {
   header .header svg {
     width: 150px; } }
 @media screen and (max-width: 767px) {
-  .no-mobile {
-    display: none; }
 
-  .no-desktop {
-    display: inline-block; }
+.no-mobile { display: none; }
+.no-desktop { display: inline-block; }
+header .header svg { width: 110px; }
+button {
+  padding: .2rem 1.8rem;
+  border-radius: 6px;
+  font-size: 16px;
+  height: 2.5rem;
+}
 
-  .font-56 {
-    font-size: 32px;
-    line-height: 40px; }
-
-  .font-28 {
-    font-size: 18px;
-    line-height: 24px; }
-
-  header .header svg {
-    width: 110px; }
-
-  button {
-    padding: 2px 30px;
-    border-radius: 7px;
-    font-size: 16px; }
-
-  header .header {
-    justify-content: center; }
-    header .header svg {
-      opacity: 0;
-      transition: opacity 1s linear; }
+header .header { justify-content: center; }
+header .header svg { opacity: 0; transition: opacity 1s linear; }
 
 .logo-principal {
   position: absolute;
   width: 100px;
   z-index: 5;
   opacity: 0;
-  transition: opacity 2s linear; }
+  transition: opacity 2s linear; 
+}
 
 .active-y .logo-principal { opacity: 1; }
 .box2 { height: calc(84vh + 68px); }
@@ -824,10 +803,7 @@ input[type=number] {
   width: 310px;
 }
 
-.ajuste-foodstyling {
-  padding: 150px 0 0 0px;
-}
-
+.ajuste-foodstyling { padding: 150px 0 0 0px; }
 .story .foto {
   bottom: auto !important;
   top: 140px !important;
@@ -855,10 +831,8 @@ input[type=number] {
 
 .marketing .container .row .pf-show-first { flex-direction: column; white-space: normal; }
 .marketing .container .row .pf-show-first div { margin-right: 0; width: 350px; }
-
 .marketing .container .row .pf-show-second { white-space: normal; }
 .marketing .container .row .alineacion-marketing { display: block; }
-
 .carousel-indicators { bottom: 55px !important; margin-bottom: 0; }
 .confian .frase { margin-bottom: 10px; }
 .confian .container .row .first-div .carrousel img { width: 100%; padding-bottom: 20px; }
@@ -882,20 +856,20 @@ input[type=number] {
   margin-bottom: 40px;
   margin-top: 40px; }
 
-  form {
-    height: auto; }
-    form input {
-      padding: 0px 8px 0px 8px;
-      margin-bottom: 15px;
-      border-radius: 15px;
-      font-size: 16px; }
-      form input::placeholder {
-        font-size: 16px; }
-    form form textarea {
-      padding: 0px 8px 0px 8px;
-      margin-bottom: 15px;
-      border-radius: 15px;
-      font-size: 16px; }
+form { height: auto; }
+form input {
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+form input::placeholder { font-size: 16px; }
+form form textarea {
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 16px; 
+}
 
   .landscape header .mailto {
     bottom: 10px;
@@ -938,33 +912,15 @@ input[type=number] {
       font-size: 14px; } }
 
 @media screen and (max-width: 575px) {
-  header .header svg {
-    opacity: 0;
-    transition: opacity 1s linear; 
-  }
+  header .header svg { opacity: 0; transition: opacity 1s linear;  }
 }
 
 @media screen and (max-width: 359px) {
-  header .mailto {
-    bottom: 50px;
-    left: 3vw; }
-  header .facebook {
-    bottom: 50px;
-    right: 120px; }
-  header .instagram {
-    bottom: 50px;
-    right: 80px; }
-  header .whatsapp {
-    width: 40px;
-    height: 40px;
-    right: 20px;
-    bottom: 40px; }
-  header .whatsapp i {
-    display: block;
-    width: 40px;
-    height: 40px; }
-  header .whatsapp i img {
-    width: 100%;
-    height: auto; }
-
+  header .mailto { bottom: 50px; left: 3vw; }
+  header .facebook { bottom: 50px; right: 120px; }
+  header .instagram { bottom: 50px; right: 80px; }
+  header .whatsapp { width: 40px; height: 40px; right: 20px; bottom: 40px; }
+  header .whatsapp i { display: block; width: 40px; height: 40px; }
+  header .whatsapp i img { width: 100%; height: auto; }
+}
 /*# sourceMappingURL=appetizer_mob.css.map */

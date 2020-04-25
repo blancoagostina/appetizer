@@ -627,7 +627,7 @@ console.log(window.innerHeight)
     }if (window.innerHeight > 557) {
       texto1.style.marginTop ="62vh"
       texto1.style.height ="40vh"
-      texto2.style.paddingTop ="62vh"
+      texto2.style.paddingTop ="65vh"
     }
   }
 

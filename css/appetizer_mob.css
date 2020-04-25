@@ -7,11 +7,22 @@
   padding: 0; }
 
 p {
-  margin-bottom: 0; }
+  font-family: 'Lato',sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
 
 h1, h2, h3 {
   margin-bottom: 0;
   font-family: 'Heavitas', sans-serif; 
+}
+
+h2 {
+  font-size: 3.25rem;
+  margin-top: 2rem;
 }
 
 .font-xl {
@@ -236,22 +247,6 @@ section {
 .active-y .fs-text {
   right: 15vw;
   opacity: 1; }
-
-.fs-text .initial-text {
-  color: #ffffff;
-  font-size: 55px;
-  font-family: "heavitas";
-  line-height: 60px;
-  letter-spacing: 2px;
-  margin: 0 0 .5rem 0; }
-
-.bg-1-text{
-  font-family: 'Lato',sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.9rem;
-  letter-spacing: 1px;
-}
 
 .bg-2-text {
   margin-top: 10px;
@@ -950,17 +945,6 @@ input[type=number] {
 
   .active-y .logo-principal {
     opacity: 1; }
-
-  .fs-text .initial-text {
-    font-size: 79px;
-    line-height: 84px;
-    letter-spacing: 3px; }
-
-  .bg-1-text {
-    font-size: 25px;
-    font-weight: 100;
-    line-height: 1.2;
-    font-family: 'Lato',sans-serif; }
 
   .bg-2-text {
     font-weight: 400; }

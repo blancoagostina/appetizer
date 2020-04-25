@@ -516,11 +516,11 @@ console.log(window.innerHeight)
       }
       if (window.cursor >= 1 && window.cursor <= 5) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         header.style.backgroundColor = "transparent"
       }
       if (window.cursor >= 6 && window.cursor <= 8) {
@@ -534,11 +534,11 @@ console.log(window.innerHeight)
       }
       if (window.cursor == 9) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         nav.style.display ="flex"
         mailto.classList.add("d-none")
         facebookSub.classList.add("d-none")
@@ -567,11 +567,11 @@ console.log(window.innerHeight)
       }
       if (window.cursor >= 1 && window.cursor <= 5) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         header.style.backgroundColor = "transparent"
         nav.style.display ="flex"
         mailto.classList.add("d-none")
@@ -588,11 +588,11 @@ console.log(window.innerHeight)
       }
       if (window.cursor == 9) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         nav.style.display ="flex"
         mailto.classList.add("d-none")
         facebookSub.classList.add("d-none")
@@ -729,11 +729,11 @@ console.log(window.innerHeight)
       }
       if (window.scrollY >= (window.innerHeight*2.4) && window.scrollY < (window.innerHeight*15.4)) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         header.style.backgroundColor = "transparent"
       }
       if (window.scrollY >= (window.innerHeight*15.4) && window.scrollY < (window.innerHeight*18.4)) {
@@ -747,11 +747,11 @@ console.log(window.innerHeight)
       }
       if (window.scrollY >= (window.innerHeight*18.4) && window.scrollY < (window.innerHeight*19.9)) {
         for(let i of logoH){
-          i.style.fill ="#000000"
+          i.style.fill ="#000"
         }
-        mail.style.color ="#000000"
-        facebook.style.color ="#000000"
-        instagram.style.color ="#000000"
+        mail.style.color ="#000"
+        facebook.style.color ="#000"
+        instagram.style.color ="#000"
         nav.style.display ="flex"
         facebookSub.classList.add("d-none")
         instagramSub.classList.add("d-none")

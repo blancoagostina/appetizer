@@ -29,6 +29,7 @@ p {
 
 li { list-style-type: none; }
 i { transition: color 2s ease-in-out; }
+section { width: 100%; }
 
 button {
   padding: .5rem 2rem;
@@ -42,8 +43,8 @@ button {
 }
 
 .dark {
-  color: #000000;
-  border-color: #000000;
+  color: #000;
+  border-color: #000;
   margin-top: 15px; }
 
 .light {
@@ -52,10 +53,10 @@ button {
 
 button.dark:hover {
   color: #fff;
-  border-color: #000000;
-  background-color: #000000; }
+  border-color: #000;
+  background-color: #000; }
 button.light:hover {
-  color: #000000;
+  color: #000;
   border-color: #fff;
   background-color: #fff; }
 
@@ -65,78 +66,64 @@ header {
   z-index: 17;
   padding-bottom: 15px;
   transition: background-color 1s linear; }
-  header .header {
-    display: flex;
-    justify-content: space-between; }
-    header .header svg {
-      width: 180px;
-      height: auto;
-      margin-top: 25px; 
-      margin-left: -80px;}
+header .header { display: flex; justify-content: space-between; }
+header .header svg {
+  width: 180px;
+  height: auto;
+  margin-top: 25px; 
+  }
       
-      header .header svg path {
-        fill: #fff;
-        transition: fill 2s ease-in-out; }
-    header .header nav {
-      margin-top: 31px; }
-      header .header nav ul {
-        display: flex;
-        margin-bottom: 0; }
-        header .header nav ul li {
-          padding: .9rem 0; }
-          header .header nav ul li a {
-            display: block;
-            width: 33px;
-            height: 33px;
-            z-index: 1; }
-            header .header nav ul li a i {
-              display: inline-block;
-              font-size: 22px;
-              text-align: center;
-              width: 40px;
-              height: 40px;
-              line-height: 40px;
-              color: #fff; }
-              header .header nav ul li a i img {
-                width: 100%;
-                height: auto;
-                margin: 0; }
-        header .header nav ul li:nth-child(4) {
-          padding-left: 15px; }
-  header .mailto {
-    color: #fff !important;
-    font-size: 15px;
-    position: fixed;
-    bottom: 50px;
-    left: 5vw; }
-  header .facebook {
-    color: #fff;
-    font-size: 22px;
-    position: fixed;
-    bottom: 50px;
-    right: 130px; }
-  header .instagram {
-    color: #fff;
-    font-size: 22px;
-    position: fixed;
-    bottom: 50px;
-    right: 95px; }
-  header .whatsapp {
-    width: 40px;
-    height: 40px;
-    right: 40px;
-    bottom: 40px;
-    z-index: 1; }
-    header .whatsapp i {
-      display: block;
-      width: 40px;
-      height: 40px; }
-      header .whatsapp i img {
-        width: 100%;
-        height: auto; }
-
-section {
-  width: 100%; }
+header .header svg path { fill: #fff; transition: fill 2s ease-in-out; }
+header .header nav { margin-top: 31px; }
+header .header nav ul { display: flex; margin-bottom: 0; }
+header .header nav ul li { padding: .9rem 0; }
+header .header nav ul li a {
+  display: block;
+  width: 33px;
+  height: 33px;
+  z-index: 1; }
+header .header nav ul li a i {
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff; }
+header .header nav ul li a i img {
+  width: 100%;
+  height: auto;
+  margin: 0; }
+header .header nav ul li:nth-child(4) { padding-left: 15px; }
+header .mailto {
+  color: #fff !important;
+  font-size: 15px;
+  position: fixed;
+  bottom: 50px;
+  left: 5vw; }
+header .facebook {
+  color: #fff;
+  font-size: 22px;
+  position: fixed;
+  bottom: 50px;
+  right: 130px; }
+header .instagram {
+  color: #fff;
+  font-size: 22px;
+  position: fixed;
+  bottom: 50px;
+  right: 95px; }
+header .whatsapp {
+  width: 40px;
+  height: 40px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 1; }
+header .whatsapp i {
+  display: block;
+  width: 40px;
+  height: 40px; }
+header .whatsapp i img { width: 100%; height: auto; } 
 
 .parallax {
   background: #ffff absolute no-repeat 50% 50%;
@@ -146,50 +133,24 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  transition: top 2s ease-in-out; }
+  transition: top 2s ease-in-out;
+}
 
-.bottom {
-  top: 100vh; }
+.bottom { top: 100vh; }
+.top { top: -100vh; }
+.active-y { top: 0; }
+.left { left: -100vw; }
+.right { left: 100vw; }
+.active-x { left: 0; }
 
-.top {
-  top: -100vh; }
-
-.active-y {
-  top: 0; }
-
-.left {
-  left: -100vw; }
-
-.right {
-  left: 100vw; }
-
-.active-x {
-  left: 0; }
-
-.parallax:nth-child(2) {
-  background-image: url(../images/full-width/bg-1.jpg); }
-
-.parallax:nth-child(3) {
-  background-image: url(../images/full-width/bg-2.jpg); }
-
-.parallax:nth-child(4) {
-  background-image: url(../images/full-width/bg-3.jpg); }
-
-.parallax:nth-child(5) {
-  background-image: url(../images/full-width/bg-4.jpg); }
-
-.parallax:nth-child(6) {
-  background-color: #000000; }
-
-.parallax:nth-child(7) {
-  background-image: url(../images/full-width/bg-5.jpg); }
-
-.parallax:nth-child(8) {
-  background-color: #fff; }
-
-.parallax:nth-child(9) {
-  background-color: #000000;
-  z-index: 16; }
+.parallax:nth-child(2) { background-image: url(../images/full-width/bg-1.jpg); }
+.parallax:nth-child(3) { background-image: url(../images/full-width/bg-2.jpg); }
+.parallax:nth-child(4) { background-image: url(../images/full-width/bg-3.jpg); }
+.parallax:nth-child(5) { background-image: url(../images/full-width/bg-4.jpg); }
+.parallax:nth-child(6) { background-color: #000; }
+.parallax:nth-child(7) { background-image: url(../images/full-width/bg-5.jpg); }
+.parallax:nth-child(8) { background-color: #fff; }
+.parallax:nth-child(9) { background-color: #000; z-index: 16; }
 
 .box1 {
   position: absolute;
@@ -303,13 +264,8 @@ section {
   transition: left 2s ease-in-out, opacity 2.5s ease-in-out;
 }
 
-.box3 img {
-  width: auto;
-  height: 100%; }
-
-.position {
-  position: relative;
-  height: 350vh; }
+.box3 img { width: auto; height: 100%; }
+.position { position: relative; height: 350vh; }
 
 .fs-text-inter {
   width: 100%;
@@ -389,7 +345,7 @@ section {
 #closeModal:hover {
   background-color: white;
   color: #000 !important;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   font-weight: bold; }
 
 .modal-background iframe {
@@ -483,7 +439,7 @@ section {
     right: 20px; }
   .story .video {
     bottom: 250px;
-    color: #000000;
+    color: #000;
     /*left: 50px;*/ }
   .story .animacion {
     bottom: 250px;
@@ -584,7 +540,7 @@ section {
 .confian .container .row .first-div {
   display: flex;
   flex-direction: column;
-  color: #000000;
+  color: #000;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -594,7 +550,7 @@ section {
 .confian .container .row .first-div .carrousel { margin: 50px 6vw; }
 
 .form-tittle {
-  color: #000000;
+  color: #000;
   -webkit-text-stroke: 2px #fff;
   margin-top: 58px;
 }
@@ -643,7 +599,7 @@ form input {
   border-radius: 12px;
   width: 100%;
   color: #fff;
-  background-color: #000000;
+  background-color: #000;
   font-family: 'Lato',sans-serif;
   font-size: 18px; 
 }
@@ -660,7 +616,7 @@ form textarea {
   width: 100%;
   font-size: 18px;
   color: #fff;
-  background-color: #000000;
+  background-color: #000;
   resize: none; }
 form textarea::placeholder {
     color: #fff;

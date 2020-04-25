@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   margin-bottom: 0;
   font-family: 'Heavitas', sans-serif; 
 }
@@ -354,11 +354,6 @@ section {
     position: absolute;
     opacity: 0;
     transition: left 1s ease-in-out, opacity 2.5s ease-in-out; }
-    .fs-text-inter .second-bg-3-div h2 {
-      text-align: left;
-      font-family: 'Heavitas', sans-serif;
-      font-size: 62px;
-      line-height: 70px; }
     .fs-text-inter .second-bg-3-div .bg-3-text {
       font-size: 24px;
       line-height: 30px;
@@ -388,10 +383,6 @@ section {
 .foodstyling {
   opacity: 0;
   transition: opacity 2.5s ease-in-out; }
-
-.foodstyling h2 {
-  font-size: 56px;
-  line-height: 68px; }
 
 .foodstyling p {
   font-size: 28px;
@@ -596,10 +587,7 @@ section {
 .marketing .container .row .alineacion-marketing {
   display: flex;
   justify-content: center; }
-  .marketing .container .row .alineacion-marketing h2 {
-    margin-right: 10px;
-    font-size: 76px;
-    line-height: 80px; }
+
 .marketing .container .row .pf-show-first {
   width: 100%;
   display: flex;
@@ -627,9 +615,6 @@ section {
   justify-content: center;
   flex-shrink: 0;
   transition: left 2s ease-in-out; }
-  .marketing .container .row .pf-show-second h2 {
-    font-size: 48px;
-    line-height: 58px; }
   .marketing .container .row .pf-show-second button {
     margin-top: 40px; }
 
@@ -653,10 +638,6 @@ section {
   height: 100vh;
   overflow: hidden;
   width: 100%; }
-  .confian .container .row .first-div h2 {
-    font-size: 56px;
-    line-height: 68px;
-    margin-bottom: 50px; }
   .confian .container .row .first-div p {
     font-size: 28px;
     line-height: 32px;
@@ -952,11 +933,6 @@ input[type=number] {
       height: 255px;
       flex-shrink: 0;
       width: 300px; }
-      .fs-text-inter .second-bg-3-div h2 {
-        font-size: 32px;
-        line-height: 40px;
-        text-align: left;
-        font-family: 'Heavitas', sans-serif; }
       .fs-text-inter .second-bg-3-div .bg-3-text {
         font-size: 18px;
         line-height: 24px;
@@ -968,10 +944,6 @@ input[type=number] {
 
   .ajuste-foodstyling {
     padding: 150px 0 0 0px; }
-
-  .foodstyling h2 {
-    font-size: 32px;
-    line-height: 40px; }
 
   .foodstyling p {
     font-size: 22px;
@@ -1005,9 +977,6 @@ input[type=number] {
     .marketing .container .row .pf-show-first div {
       margin-right: 0;
       width: 350px; }
-      .marketing .container .row .pf-show-first div h2 {
-        font-size: 40px;
-        line-height: 54px; }
       .marketing .container .row .pf-show-first div p {
         margin-bottom: 0;
         font-size: 18px;
@@ -1017,10 +986,6 @@ input[type=number] {
     white-space: normal; }
     .marketing .container .row .pf-show-second div :nth-child(1) {
       margin-top: 35px; }
-    .marketing .container .row .pf-show-second div h2 {
-      font-size: 24px;
-      margin-bottom: 0;
-      line-height: 30px; }
   .marketing .container .row .alineacion-marketing {
     display: block; }
     .marketing .container .row .alineacion-marketing h2 {
@@ -1030,10 +995,6 @@ input[type=number] {
     bottom: 55px !important;
     margin-bottom: 0; }
 
-  .confian h2 {
-    margin-bottom: 0;
-    font-size: 24px;
-    line-height: 30px; }
   .confian .frase {
     margin-bottom: 10px; }
     .confian .frase p {
@@ -1043,12 +1004,6 @@ input[type=number] {
   .confian .container .row .first-div p {
     font-size: 18px;
     line-height: 24px; }
-
-  .confian .container .row .first-div h2 {
-    font-size: 32px;
-    line-height: 40px;
-    margin-bottom: 20px;
-    margin-top: 60px; }
 
   .confian .container .row .first-div .carrousel {
     margin-top: 20px; }

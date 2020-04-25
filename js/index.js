@@ -283,14 +283,14 @@ console.log(window.innerHeight)
       text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth <= 768 && window.innerWidth > 576) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="79px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="84px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="3rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="3rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="25px"
       }
       if (window.innerWidth <= 576 && window.innerWidth >= 0) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="55px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="60px"
+      text.getElementsByTagName('h2')[0].style.fontSize ="3rem"
+      text.getElementsByTagName('h2')[0].style.lineHeight ="3rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="22px"
       }

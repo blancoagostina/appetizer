@@ -11,14 +11,15 @@ p {
 
 h1, h2, h3 {
   margin-bottom: 0;
-  font-family: 'Heavitas', sans-serif; }
+  font-family: 'Heavitas', sans-serif; 
+}
 
-.font-56 {
+.font-xl {
   font-size: 3rem;
   line-height: 4rem;
 }
 
-.font-28 {
+.font-m {
   font-size: 1.2rem;
   line-height: 1.7rem; 
 }

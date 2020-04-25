@@ -544,10 +544,11 @@ header .whatsapp i img { width: 100%; height: auto; }
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-top: 6rem;
   overflow: hidden;
   width: 100%;
 }
-.confian .container .row .first-div .carrousel { margin: 50px 6vw; }
+.confian .container .row .first-div .carrousel { margin: 1rem 6vw; }
 
 .form-tittle {
   color: #000;
@@ -860,7 +861,6 @@ input[type=number] {
 
 .carousel-indicators { bottom: 55px !important; margin-bottom: 0; }
 .confian .frase { margin-bottom: 10px; }
-.confian .container .row .first-div .carrousel { margin-top: 20px; }
 .confian .container .row .first-div .carrousel img { width: 100%; padding-bottom: 20px; }
 
 .form-tittle {

@@ -271,7 +271,8 @@ section {
 .box2 img {
   width: auto;
   height: 90%;
-  filter: drop-shadow(-5px 50px 15px rgba(0, 0, 0, 0.35)); }
+  filter: drop-shadow(-5px 50px 15px rgba(0, 0, 0, 0.35));
+}
 
 .onscroll-move-1 {
   position: relative;
@@ -283,23 +284,23 @@ section {
   width: 400px;
   opacity: 0;
   transition: opacity 2.5s ease-in-out;
-  font-family: Arial, Helvetica, sans-serif; }
-  .onscroll-move-1 .branding {
-    height: 50vh;
-    position: absolute;
-    opacity: 0;
-    transition: top 1.5s ease-in-out, opacity 2.5s ease-in-out; }
-    .onscroll-move-1 .branding h2 {
-      text-align: left;
-      font-family: 'Heavitas', sans-serif; }
-  .onscroll-move-1 .branding-content {
-    height: 50vh;
-    position: absolute;
-    opacity: 0;
-    transition: top 1.5s ease-in-out, opacity 2.5s ease-in-out; }
-    .onscroll-move-1 .branding-content h2 {
-      text-align: left;
-      font-family: 'Heavitas', sans-serif; }
+}
+.onscroll-move-1 .branding {
+  height: 50vh;
+  position: absolute;
+  opacity: 0;
+  transition: top 1.5s ease-in-out, opacity 2.5s ease-in-out;
+}
+.onscroll-move-1 .branding-content {
+  height: 50vh;
+  position: absolute;
+  opacity: 0;
+  transition: top 1.5s ease-in-out, opacity 2.5s ease-in-out;
+}
+
+#box2text1 h2 {
+  margin: 3rem 0 .5rem;
+}
 
 .active-y .box2 {
   left: 0;

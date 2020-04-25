@@ -235,6 +235,10 @@ section {
   transition: opacity 2.5s ease-in, left 1.5s ease-in, right 1.5s ease-in;
   color: #ffffff; }
 
+.fs-text p {
+  font-size: 1.25rem;
+}
+
 .active-y .logo-principal {
   opacity: 1; }
 .active-y .box1 {

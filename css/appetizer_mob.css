@@ -3,6 +3,7 @@
 @import url("micons/micons.css");
 @import url("fonts.css");
 * { margin: 0; padding: 0; }
+.no-desktop { display: none; }
 
 body {
   height: 100vh;
@@ -38,10 +39,6 @@ p {
   letter-spacing: 1px;
   margin-bottom: 0;
 }
-
-.no-desktop {
-  display: none; }
-
 
 li {
   list-style-type: none; }

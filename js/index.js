@@ -235,7 +235,6 @@ console.log(window.innerHeight)
   });
   
 
-
   //mobile
   
   function setsMob(){
@@ -265,30 +264,35 @@ console.log(window.innerHeight)
       logo.style.top ="calc(50vh - 100px)"
     }
     if (window.innerHeight <= 768 && window.innerWidth >= 0 && window.innerHeight < window.innerWidth) {
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="100px"
       text.getElementsByTagName('p')[0].style.fontSize ="18px"
     }else{
       if (window.innerWidth >= 992) {
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth < 992 && window.innerWidth >= 768) {
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth <= 768 && window.innerWidth > 576) {
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.fontSize ="3rem"
       text.getElementsByTagName('h2')[0].style.lineHeight ="3rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
       text.getElementsByTagName('p')[0].style.fontSize ="25px"
       }
       if (window.innerWidth <= 576 && window.innerWidth >= 0) {
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
       text.getElementsByTagName('h2')[0].style.fontSize ="3rem"
       text.getElementsByTagName('h2')[0].style.lineHeight ="3rem"
       text.getElementsByTagName('h2')[0].style.paddingTop ="0"
@@ -662,38 +666,23 @@ console.log(window.innerHeight)
       logo.style.top ="calc(60vh - 100px)"
     }
     if (window.innerHeight <= 768 && window.innerWidth >= 0 && window.innerHeight < window.innerWidth) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
-      text.getElementsByTagName('h2')[0].style.paddingTop ="0"
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h1')[0].style.lineHeight ="4rem"
+      text.getElementsByTagName('h1')[0].style.paddingTop ="0"
       //text.getElementsByTagName('p')[0].style.fontSize ="18px"
       element.style.top ="0"
     }else{
       if (window.innerWidth >= 992) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="4.5rem"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="5rem"
-      text.getElementsByTagName('h2')[0].style.paddingTop ="0"
+      text.getElementsByTagName('h1')[0].style.fontSize ="4.5rem"
+      text.getElementsByTagName('h1')[0].style.lineHeight ="5rem"
+      text.getElementsByTagName('h1')[0].style.paddingTop ="0"
       //text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
       }
       if (window.innerWidth < 992 && window.innerWidth >= 768) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="4rem"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="4rem"
-      text.getElementsByTagName('h2')[0].style.paddingTop ="0"
-      //text.getElementsByTagName('p')[0].style.fontSize ="1.6vw"
+      text.getElementsByTagName('h1')[0].style.fontSize ="4rem"
+      text.getElementsByTagName('h1')[0].style.lineHeight ="4rem"
+      text.getElementsByTagName('h1')[0].style.paddingTop ="0"
       }
-	  /*
-      if (window.innerWidth <= 768 && window.innerWidth > 576) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="60px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="65px"
-      text.getElementsByTagName('h2')[0].style.paddingTop ="0"
-      text.getElementsByTagName('p')[0].style.fontSize ="25px"
-      }
-      if (window.innerWidth <= 576 && window.innerWidth >= 0) {
-      text.getElementsByTagName('h2')[0].style.fontSize ="50px"
-      text.getElementsByTagName('h2')[0].style.lineHeight ="55px"
-      text.getElementsByTagName('h2')[0].style.paddingTop ="0"
-      text.getElementsByTagName('p')[0].style.fontSize ="22px"
-      }
-	  */
     }
     logoViewDesk()
   }

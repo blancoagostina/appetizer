@@ -371,11 +371,6 @@ section {
     position: absolute;
     opacity: 0;
     transition: left 1s ease-in-out, opacity 2.5s ease-in-out; }
-    .fs-text-inter .first-bg-3-div h2 {
-      text-align: left;
-      font-family: 'Heavitas', sans-serif;
-      font-size: 76px;
-      line-height: 80px; }
 
 .active-y .box3 {
   left: 0;
@@ -970,13 +965,6 @@ input[type=number] {
       height: 249px;
       flex-shrink: 0;
       width: 310px; }
-      .fs-text-inter .first-bg-3-div h2 {
-        text-align: left;
-        font-family: 'Heavitas', sans-serif;
-        margin-left: 10px;
-        font-size: 40px;
-        line-height: 52px;
-        margin-top: 100px; }
 
   .ajuste-foodstyling {
     padding: 150px 0 0 0px; }

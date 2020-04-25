@@ -236,7 +236,7 @@ console.log(window.innerHeight)
   
 
 
-  //movile
+  //mobile
   
   function setsMob(){
     let element = document.getElementById("cuadro")
